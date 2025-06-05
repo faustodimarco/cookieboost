@@ -1,0 +1,95 @@
+/* Dark mode Quill styles for better contrast and modern look */
+.ql-toolbar.ql-snow {
+  background: #232326 !important;
+  border-radius: 8px 8px 0 0 !important;
+  border: 1px solid #48484A !important;
+  border-bottom: none !important;
+  color: #F2F2F7 !important;
+}
+.ql-toolbar.ql-snow .ql-picker {
+  color: #F2F2F7 !important;
+}
+.ql-toolbar.ql-snow .ql-stroke {
+  stroke: #F2F2F7 !important;
+}
+.ql-toolbar.ql-snow .ql-fill {
+  fill: #F2F2F7 !important;
+}
+.ql-toolbar.ql-snow .ql-picker-label {
+  color: #F2F2F7 !important;
+}
+.ql-toolbar.ql-snow .ql-picker-options {
+  background: #232326 !important;
+  color: #F2F2F7 !important;
+}
+.ql-container.ql-snow {
+  background: #1C1C1E !important;
+  border-radius: 0 0 8px 8px !important;
+  border: 1px solid #48484A !important;
+  border-top: none !important;
+  min-height: 100px !important;
+  color: #F2F2F7 !important;
+  font-size: 15px !important;
+}
+.ql-editor {
+  min-height: 100px !important;
+  color: #F2F2F7 !important;
+  font-size: 15px !important;
+  border-radius: 0 0 16px 16px !important;
+  background: #1C1C1E !important;
+}
+.ql-editor.ql-blank::before {
+  color: #8E8E93 !important;
+  font-style: italic;
+  opacity: 1;
+}
+
+/* Quill link tooltip (popup) dark mode styling */
+.ql-tooltip {
+  background: #232326 !important;
+  color: #F2F2F7 !important;
+  border: 1px solid #48484A !important;
+  border-radius: 8px !important;
+  font-size: 15px !important;
+  box-shadow: none !important;
+  position: absolute !important;
+  z-index: 10000;
+}
+.ql-tooltip input[type="text"] {
+  background: #1C1C1E !important;
+  color: #F2F2F7 !important;
+  border: 1px solid #48484A !important;
+  border-radius: 6px !important;
+  padding: 6px 10px !important;
+  font-size: 15px !important;
+}
+.ql-tooltip a {
+  color: #007AFF !important;
+  text-decoration: underline !important;
+}
+.ql-tooltip .ql-action, .ql-tooltip .ql-remove {
+  color: #F2F2F7 !important;
+  background: #232326 !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 4px 10px !important;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none !important;
+}
+.ql-tooltip .ql-action:hover, .ql-tooltip .ql-remove:hover {
+  background: #007AFF !important;
+  color: #fff !important;
+}
+
+/* Editor link styling */
+.ql-editor a {
+  color: #007AFF !important;
+  text-decoration: underline !important;
+  transition: color 0.2s;
+}
+.ql-editor a:hover {
+  color: #0056CC !important;
+  text-decoration: underline !important;
+} 
